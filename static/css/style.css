@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(76, 78, 78);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    height: 100%;
+    width: 30%;
+    border: 2px solid black;
+    text-align:center;
+    background: white;
+    border-radius: 20px;
+}
+
+h1{
+    color:rgb(243, 75, 9);
+}
+input{
+    width: 60%;
+    height: 2.2rem;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid rgb(119, 119, 119);
+    font-weight: 500;
+}
+button{
+    color:white;
+    background: black;
+    height: 2.5rem;
+    width: 30%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    color: black;
+    background: aqua;
+
+}
+
+/* Responsive css */
+
+
+

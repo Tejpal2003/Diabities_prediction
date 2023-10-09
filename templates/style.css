@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: rgb(225, 224, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.login{
+    height: 94vh;
+    width: 40vw;
+    border: 2px solid black;
+    background-color: white;
+   
+}
+h1{
+    text-align: center;
+    margin-top: 1rem;
+}
+.form{
+    text-align: center;
+}
+.form .input{
+    width: 20rem;
+    height: 2.8rem;
+    margin-top: .6rem;
+    background-color:rgb(238, 233, 233);
+    border: none;
+    padding-left: 1rem;
+    border-radius: 10px;
+}
+button{
+    color: white;
+    background-color: rgb(17, 111, 234);
+    border: none;
+    width: 10rem;
+    height: 2.8rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
