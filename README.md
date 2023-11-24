@@ -1,16 +1,25 @@
-# lab-flask
+# Diabetes Prediction Project
 
-<!-- ![image](https://user-images.githubusercontent.com/115451707/196919992-edcfea8b-e3f6-4f35-9398-43be66b5622d.png) -->
+This project aims to develop a machine learning model for predicting the likelihood of diabetes in individuals based on various health parameters. The model is designed to assist healthcare professionals in early diagnosis and intervention.
 
+## Introduction
 
-To run flask application 
+Diabetes is a prevalent chronic condition that affects millions of people worldwide. Early detection of diabetes is crucial for effective management and prevention of complications. This project leverages machine learning techniques to analyze relevant health data and predict the probability of an individual having diabetes.
 
-```
-python app.py
-```
+## Features
 
+- Utilizes a dataset containing essential health parameters such as glucose levels, blood pressure, BMI, age, and other relevant factors.
+- Implements machine learning algorithms to analyze and learn patterns from the provided data.
+- Offers a user-friendly interface for inputting health parameters and obtaining a diabetes prediction.
 
-To access your flask application open new tab in and paste the url:
-```
-https://{your_url}.pwskills.app:5000/
-```
+## Getting Started
+
+### Prerequisites
+
+Before running the project, ensure you have the following dependencies installed:
+
+- Python 3.x
+- Required libraries (NumPy, Pandas, Scikit-learn, etc.). Install them using:
+
+```bash
+$ pip install -r requirements.txt
