@@ -23,3 +23,10 @@ Before running the project, ensure you have the following dependencies installed
 
 ```bash
 $ pip install -r requirements.txt
+
+### How Run Project
+
+To Run Project follow the Code_
+
+$ python main.py
+
